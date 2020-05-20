@@ -4,13 +4,14 @@ body.welcome-page {
 }
 
 .welcome {
-    background-image: $welcomePageBackground;
+    background: $welcomePageBackground;
     display: flex;
     flex-direction: column;
     font-family: $welcomePageFontFamily;
     justify-content: space-between;
     min-height: 100vh;
     position: relative;
+
 
     .header {
         background-image: $welcomePageHeaderBackground;
@@ -37,6 +38,7 @@ body.welcome-page {
         }
 
         .header-text-title {
+            display: none;
             color: $welcomePageTitleColor;
             font-size: $welcomePageHeaderTextTitleFontSize;
             font-weight: $welcomePageHeaderTextTitleFontWeight;
