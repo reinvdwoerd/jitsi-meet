@@ -8,6 +8,7 @@ import { getJitsiMeetTransport } from '../modules/transport';
 import { App } from './features/app';
 import { getLogger } from './features/base/logging/functions';
 import { Platform } from './features/base/react';
+import '../css/main.scss';
 
 const logger = getLogger('index.web');
 const OS = Platform.OS;

@@ -125,6 +125,8 @@
     "jetifier": "1.6.4",
     "metro-react-native-babel-preset": "0.56.0",
     "node-sass": "4.13.1",
+    "sass": "^1.26.5",
+    "sass-loader": "^8.0.2",
     "string-replace-loader": "2.1.1",
     "style-loader": "0.19.0",
     "unorm": "1.6.0",
